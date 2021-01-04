@@ -1,0 +1,164 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+/*global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    color: #fff;
+}
+.dark{
+    padding: 15px;
+    background-color: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Header */
+header{
+    background:#35424a;
+    color:#fff;
+    padding-top:30px;
+    min-height:110px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    display: inline;
+    padding:0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#e6471d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+    min-height:400px;
+    background:url(../img/showcase.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color:#fff;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size:20px;
+}
+
+#newsletter{
+    padding:15px;
+    color:#fff;
+    background:#35424a;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top:15px;
+}
+
+#newsletter input [type="email"]{
+    padding:4px;
+    height:25px;
+    width:258px;
+}
+/* boxes */
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding:10px;
+}
+
+/*sidebar*/
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+article #sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+/*services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background:#a6a6a6 ;
+}
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
